@@ -1,9 +1,8 @@
 {
-  "homepage": "https://pragati-2305.github.io/React-Quiz-App-",
+  "homepage": "https://pragati-2305.github.io/React_Quiz_App",
   "name": "quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pragati-2305.github.io/React_Quiz_App"
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/dom": "^10.4.0",
