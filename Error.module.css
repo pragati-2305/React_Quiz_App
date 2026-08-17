@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.error{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.error.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: thistle;
+    font-size: x-large;
+    color: black;
+    padding: 20px 70px;
+    border-radius: 5px;
+}

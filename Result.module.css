@@ -1,0 +1,27 @@
+
+:root {
+  --coral-pink: #FF6F61;
+  --royal-purple: #7851A9;
+  --deep-violet: #5D3FD3;
+  --bright-aqua: #00FFFF;
+  --light-blush: #ffe3e3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .text {
+    font-size: 1.875rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px;
+    color: white;
+    background-color: var(--coral-pink);
+}

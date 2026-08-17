@@ -1,0 +1,31 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  height: 100vh;
+  width: 250px;  
+  padding: 10px 0;
+}
+
+.index {
+  height: 100vh;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.index:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.checked {
+  background-color: greenyellow !important; /* Green if attempted */
+  color: white;
+}
